@@ -235,7 +235,7 @@ ISR(TIMER0_COMPA_vect)
 	switch(digit)
 	{
 		case 1:
-		display(1, (degrees%10);
+		display(1, (degrees/1000)%10);
 		break;
 		
 		case 2:
