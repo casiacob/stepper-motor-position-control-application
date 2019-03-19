@@ -202,7 +202,7 @@ ISR(ADC_vect)
 	adc = (adc_h<<8)|adc_l;
 	adc*=2;
 	/*
-	the motor position (steps) can be between [0,2048]
+	the motor position (x) can be between [0,2048]
 	adc takes values [0, 1023]
 	adc will also be the new position so it is multiplied by 2
 	*/
