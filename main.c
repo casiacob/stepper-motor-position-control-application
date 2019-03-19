@@ -230,7 +230,6 @@ ISR(ADC_vect)
 
 ISR(TIMER0_COMPA_vect)
 {
-	//
 	digit++;
 	switch(digit)
 	{
