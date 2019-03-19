@@ -49,7 +49,7 @@ void display(short position, int number)
 	switch(position)
 	{
 		case 1:
-		PORTC &= ~(1<<2);; //digit 1 -> PC2 - A2
+		PORTC &= ~(1<<2); //digit 1 -> PC2 - A2
 		break;
 		
 		case 2:
